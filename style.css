@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Arimo&family=Mohave:ital,wght@1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:url(./assets/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.container{
+max-width: 700px; 
+margin: 0 auto;
+height: 700px;
+margin-top: 20rem;
+}
+
+.form{
+    display: inline-block;
+    margin-left: 14rem;
+    margin-right: 14rem;
+   
+}
+
+#pwd{
+    margin-top: 0.4rem;
+    padding: 0.7rem 6rem;
+    opacity: 0.5;
+}
+
+#email {
+    padding: 0.7rem 6rem;
+    opacity: 0.5;
+    margin-top: 0.4rem;
+
+}
+
+#help{
+    margin-left: 31rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+#rmb{
+    margin-top: 1rem;
+    margin-left: -1rem;
+}
+.container h1{
+    color: #fff;
+    font-family: 'Mohave', sans-serif;
+    font-size: 4rem;
+    margin-bottom: -2rem;
+    margin-left: 12rem;
+}
