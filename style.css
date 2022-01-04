@@ -25,6 +25,13 @@ max-width: 700px;
 margin: 0 auto;
 height: 700px;
 margin-top: 20rem;
+border: 2px solid #c4c2ed;
+border-bottom: none;
+border-top-left-radius: 2rem;
+border-top-right-radius: 2rem;
+border-bottom-right-radius: 2rem;
+border-bottom-left-radius: 2rem;
+
 }
 
 .form{
@@ -135,7 +142,7 @@ margin-top: 20rem;
 
 .pwrdicon{
     display: inline-block;
-    background: url(./assets/username.png);
+    background: url(./assets/pwd.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -188,8 +195,13 @@ margin-top: 20rem;
 .container2{
     max-width: 700px; 
     margin: 0 auto;
-    height: 700px;
+    height: 350px;
     margin-top: 20rem;
+    border: 2px solid #c4c2ed;
+    border-top: none;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+   
     }
     
  .form2{
@@ -288,7 +300,7 @@ margin-top: 20rem;
     
     .emailicon2{
         display: inline-block;
-        background: url(./assets/username.png);
+        background: url(./assets/email.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -304,7 +316,7 @@ margin-top: 20rem;
 
     .pwrdicon2{
         display: inline-block;
-        background: url(./assets/username.png);
+        background: url(./assets/pwd.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -352,4 +364,12 @@ margin-top: 20rem;
 
 .signin{
     margin-top: -12rem;
+}
+
+.container3{
+    max-width: 700px;
+    border: 2px solid black;
+    height: 850px;
+    margin-left: 35rem;
+   
 }
